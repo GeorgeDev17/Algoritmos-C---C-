@@ -1,23 +1,23 @@
 /*Autor: Jorge Alberto Bedoya Montoya
-Dev C++ versi髇: 5.11
+Dev C++ versi贸n: 5.11
 Plataforma OS: Parrot Linux 6.1.0
-Ultima actualizaci髇: 09-10-2023*/
+Ultima actualizaci贸n: 09-10-2023*/
 
 /*--------------------------------------------------------------------------------------------------
 Algoritmos Lenguaje C
     --- Funciones y procedimientos---
- Calcula la suma de dos n鷐eros y luego imprime el resultado
+ Calcula la suma de dos n煤meros y luego imprime el resultado.
 --------------------------------------------------------------------------------------------------*/
 # include <iostream>
 
 using namespace std;
 
-int suma (int a, int b){ // Funci髇 suma que toma 2 par醡etros enteros (a y b).
+int suma (int a, int b){ // Funci贸n suma que toma 2 par谩metros enteros (a y b).
 	int sum;
 	sum = a + b; 
 	return sum;	
 }
 	int main(){
-		cout << suma (5, 6); //Impresi髇 por consola del resultado.
+		cout << suma (5, 6); //Impresi贸n por consola del resultado.
 		return 0;
 }
