@@ -1,7 +1,7 @@
 /*Autor: Jorge Alberto Bedoya Montoya
-Dev C++ versión: 5.11
+Dev C++ versiÃ³n: 5.11
 Plataforma OS: Parrot Linux 6.1.0
-Ultima actualización: 09-10-2023*/
+Ultima actualizaciÃ³n: 09-10-2023*/
 
 /*--------------------------------------------------------------------------------------------------
 Algoritmos Lenguaje C
@@ -11,7 +11,7 @@ Intercambio de valores de 2 variables enteras.
 #include <stdio.h>
 
 void cambio (int &x, int &y){
-/* Dentro de la función, los valores de 'x' y 'y' se intercambian 
+/* Dentro de la funciÃ³n, los valores de 'x' y 'y' se intercambian 
 utilizando una variable auxiliar 'aux' */
 	int aux;
 	aux = x;
